@@ -1,0 +1,23 @@
+{
+  "name": "tododjango",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "9.8.0",
+    "npm": "5.7.1"
+  },
+  "scripts": {
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hybrid-SyntaX/Todongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hybrid-SyntaX/Todongo/issues"
+  },
+  "homepage": "https://github.com/Hybrid-SyntaX/Todongo#readme"
+}
